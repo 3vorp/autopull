@@ -22,4 +22,6 @@ crontab -e
 
 Paste `0 * * * * /usr/local/bin/node /path/to/autopull/index.js > /dev/null` in the file and save its contents.
 
+## Configuration
+
 By default, your repositories will be pulled every hour. If you want to adjust this interval, change the schedule expression at the start of the line to whatever interval you want (you can access the schedule by running `crontab -e` again). [This website](https://crontab.guru/) is a handy tool for generating cron intervals.
