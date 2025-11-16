@@ -1,0 +1,16 @@
+[
+	{
+		"basePath": "some/path/from/the/user/folder",
+		"items": [
+			"Cloned Repository 1 (inside basePath)",
+			"Cloned Repository 2",
+			"Cloned Repository N"
+		]
+	},
+	{
+		"basePath": "/some/path/from/root/folder",
+		"items": [
+			"Cloned Repo N"
+		]
+	}
+]
