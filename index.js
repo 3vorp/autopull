@@ -9,7 +9,7 @@ const config = require("./config.json");
  * Check whether a path starts either with a slash (*nix) or drive letter (Windows)
  * @author Evorp, mullak99
  * @param {string} path
-*/
+ */
 const isAbsolute = (path) => path.startsWith("/") || /^[A-Za-z]:\\/.test(path);
 const userHome = process.env.HOME || process.env.USERPROFILE;
 

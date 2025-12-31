@@ -1,6 +1,6 @@
 # Autopull
 
-A small tool to automatically pull GitHub repositories on a given interval using cron or Windows Task Scheduler. Uncommitted changes are preserved and merged as possible.
+A small tool to automatically pull Git repositories on a given interval using cron or Windows Task Scheduler. Uncommitted changes are preserved and merged as possible.
 
 ## Setup
 
@@ -8,7 +8,7 @@ This tool requires [Node.js](https://nodejs.org) (any reasonably recent version 
 
 First, place the repository contents (either cloned or unzipped) somewhere it won't move (I recommend creating a folder inside `$HOME/.config`).
 
-Rename the `config.example.json` file to `config.json` to fit your cloned GitHub repository paths. You can add multiple GitHub repositories inside a single base directory using the `basePath` and `items` keys, and any number of base folders by adding more items to the array. See [`config.example.json`](./config.example.json) for a more comprehensive example of the schema.
+Rename the `config.example.json` file to `config.json` to fit your cloned Git repository paths. You can add multiple Git repositories inside a single base directory using the `basePath` and `items` keys, and any number of base folders by adding more items to the array. See [`config.example.json`](./config.example.json) for a more comprehensive example of the schema.
 
 ### \*nix Scheduling
 
