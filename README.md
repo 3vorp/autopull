@@ -4,11 +4,9 @@ A small tool to automatically pull Git repositories on a given interval using cr
 
 ## Setup
 
-This tool requires [Node.js](https://nodejs.org) (any reasonably recent version should be fine). It also requires git (obviously).
-
-First, place the repository contents (either cloned or unzipped) somewhere it won't move (I recommend creating a folder inside `$HOME/.config`).
-
-Rename the `config.example.json` file to `config.json` to fit your cloned Git repository paths. You can add multiple Git repositories inside a single base directory using the `basePath` and `items` keys, and any number of base folders by adding more items to the array. See [`config.example.json`](./config.example.json) for a more comprehensive example of the schema.
+1. Install [Node.js v22+](https://nodejs.org) and make sure Git is installed on your machine.
+2. Place the repository contents (either cloned or unzipped) somewhere it won't move. I recommend creating a folder inside `$HOME/.config`, but any location will work.
+3. Rename the `config.example.json` file to `config.json` to fit your cloned Git repository paths. You can add multiple Git repositories inside a single base directory using the `basePath` and `items` keys, and any number of base folders by adding more items to the array. See [`config.example.json`](./config.example.json) for a more comprehensive example of the schema.
 
 ### \*nix Scheduling
 
